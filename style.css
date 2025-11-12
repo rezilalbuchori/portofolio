@@ -1,0 +1,142 @@
+body{
+	font-family: 'IBM Plex Mono', monospace;
+}
+body, ul{
+	margin: 0;
+	padding:0;
+
+}
+
+h1,h2, .skill-list {
+	font-family: 'Inknut Antiqua', serif;
+
+}
+
+img{
+	/*this limit width image*/
+	max-width: 100%;
+}
+nav{
+	background-color: #05c2fc;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+header{
+	top:70px;
+	position: relative;
+	margin-bottom:  220px;
+	background-color: azure;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y: -140px; 
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+	padding:0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+
+}
+
+h1{
+	font-size: 100px;
+	line-height: 130%;
+}
+h2{
+	font-size: 30px;
+	line-height: 130%;
+}
+h1, h2{
+	font-weight: normal;
+}
+p{
+	line-height: 150%;
+}
+
+ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+.button{
+	border: 1px solid rgb(13, 22, 26);
+	font-size: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: rgb(14, 15, 15);
+	padding: 10px 20px;
+	margin-top:40px;
+	display: inline-block;
+
+}
+.button:hover{
+	background:rgb(4, 175, 243);
+	color: rgb(241, 239, 239);
+
+}
+figcaption{
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.intro-img{
+	box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+	margin-top: 30px;
+
+}
+
+.skill-list {
+	text-align: center;
+	font-size: 50px;
+	line-height: 150%
+}
+.project{
+	margin: 30px 0; 
+	padding: 50px;
+}
+
+.blue{
+	background-color: #05c2fc;
+}
+
+.project .button{
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+	margin:100px;
+
+}
+footer h2{
+	font-size: 50px;
+	margin-bottom:100px; 
+
+}
+.right-alignment{
+	text-align: right;
+}
+
+li.empty{
+	width: 90px;
+	border-top: 1px solid black;
+	top:-5px;
+	position: relative; 
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav li a:hover{
+	text-decoration: underline;
+}
